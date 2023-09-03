@@ -29,7 +29,9 @@ export default function RQ() {
       .catch((error) => setIsError(error.message));
     // console.log(items);
   }, [resourceType]);
-
+  {
+    /* FIXME: change me */
+  }
   const handler = () => {
     setResourceType('posts');
   };

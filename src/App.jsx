@@ -1,6 +1,7 @@
 // import { useState } from 'react';
+import AppCounter from './01Counter';
 import './App.css';
-import RandomImage from './RandomImage';
+// import RandomImage from './RandomImage';
 // import RandomApi from './RandomApi';
 // import Tipcalculate from './components/calculate/TipCalculate';
 // import RQ from './RQ';
@@ -35,7 +36,8 @@ function App() {
       {/* <Tipcalculate /> */}
       {/* <Tipcalculate /> */}
 
-      <RandomImage />
+      {/* <RandomImage /> */}
+      <AppCounter />
     </div>
   );
 }
